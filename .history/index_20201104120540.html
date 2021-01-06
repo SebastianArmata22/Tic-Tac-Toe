@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="inscription">
+            <h1>Tic <span>tac</span> toe</h1>
+        </div>
+        <div class="main-content">
+            <div class="settings-div">
+                <h2>Ustawienia</h2>
+                <div class="choice">
+                    <p>Graj z:</p>
+                    <label><input type="radio" name="player" id="checkComputer"> komputerem</label> </br>
+                    <label><input type="radio" name="player" id="checkPlayer">  inną osobą</label>
+
+                </div>
+                <div class="choice" id="choiceSign">
+                    <p>Wybierz znak:</p>
+                    <label onclick="showSign()"><input type="radio" name="sign" id="signX"> X</label></br>
+                    <label oncick="showSign()"><input type="radio" name="sign" id="signO"> O</label>
+                </div>
+                <button class="game-btn" onclick="start()">Graj</button>
+            </div>
+            <div class="tic-tac-toe-div">
+                <table>
+                    <tr>
+                        <th class="" id="1" onclick="choiceSquare(this)"><p></p></th>
+                        <th id="2" onclick="choiceSquare(this)"><p></p></th>
+                        <th id="3" onclick="choiceSquare(this)"><p></p></th>
+                    </tr>
+                    <tr>
+                        <th id="4"  onclick="choiceSquare(this)"><p></p></th>
+                        <th id="5"  onclick="choiceSquare(this)"><p></p></th>
+                        <th id="6"  onclick="choiceSquare(this)"><p></p></th>
+                    </tr>
+                    <tr>
+                        <th id="7"  onclick="choiceSquare(this)"><p></p></th>
+                        <th id="8"  onclick="choiceSquare(this)"><p></p></th>
+                        <th id="9"  onclick="choiceSquare(this)"><p></p></th>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+        <script src="script.js" ></script>
+    </body>
+</html>

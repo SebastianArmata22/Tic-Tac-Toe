@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-content{
+    display: flex;
+    justify-content:center;
+}
+th{
+border: 1px solid black;
+height: 120px;
+width: 120px;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-content{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+
+}
+
+th{
+border: 1px solid black;
+max-height: 120px;
+max-width: 120px;
+}
+
+th:hover{
+background-color: #bdc3c7;
+transition: all 0.5s ease-out;
+
+}

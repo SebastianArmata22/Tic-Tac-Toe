@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Syne Mono', monospace;
+}
+.inscription{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #ecf0f1;
+    letter-spacing: 2px;
+}
+.main-content{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 90vh;
+    flex-wrap: wrap;
+    background-color: #ecf0f1;
+
+}
+
+th{
+border: 1px solid black;
+height: 120px;
+width: 120px;
+}
+
+th:hover{
+background-color: #bdc3c7;
+transition: all 0.5s ease-out;
+
+}
+.settings-div{
+    height: 360px;
+    position: relative;
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+}
+.settings-div h2{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.game-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-style: none;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+   
+}
+.game-btn:hover{
+    background-color: black;
+    color: #bdc3c7;
+}
+.choice{
+    margin-top: 30px;
+}
+.choice p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}
+.choice label{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
